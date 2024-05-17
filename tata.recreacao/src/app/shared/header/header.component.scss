@@ -1,0 +1,40 @@
+
+.logo{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 10px;
+
+    .foto{
+        width: 64px;
+        border-radius: 50px;
+    }
+
+    .orçamento{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 18px;
+    
+        .string{
+
+            color: #008B0E;
+            
+        }
+    
+        .whats{
+            width: 37px;
+        }
+    }
+
+    
+}
+
+.menu {
+    background-color: #DAFFB1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 29px;
+    padding: 18px;
+}
