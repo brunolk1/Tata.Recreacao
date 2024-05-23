@@ -1,12 +1,12 @@
 import { Component } from '@angular/core';
-import { RouterOutlet } from '@angular/router';
 import { HeaderComponent } from './shared/header/header.component';
-import { HomeComponent } from './components/home/home.component';
+import { QuemSomosComponent } from './shared/quem.somos/quem.somos.component';
+
 
 @Component({
   selector: 'app-root',
   standalone: true,
-  imports: [HeaderComponent,HomeComponent],
+  imports: [HeaderComponent,QuemSomosComponent ],
   templateUrl: './app.component.html',
   styleUrl: './app.component.scss'
 })
