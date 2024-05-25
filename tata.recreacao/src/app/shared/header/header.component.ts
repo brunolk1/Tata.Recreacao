@@ -1,5 +1,6 @@
 import { Component } from '@angular/core';
 import { HomeComponent } from '../../components/home/home.component';
+import { AnimationQuemComponent } from '../animation-quem/animation-quem.component';
 
 
 @Component({
