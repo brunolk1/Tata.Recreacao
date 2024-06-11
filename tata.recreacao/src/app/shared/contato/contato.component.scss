@@ -1,0 +1,23 @@
+section{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 50px;
+}
+
+h1{
+    font-size: 2.5rem;
+    font-weight: 550;
+    color: #6C4080;
+    padding-bottom: 20px;
+}
+
+.link{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+a img{
+    width: 30px;
+}
