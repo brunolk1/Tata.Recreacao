@@ -17,9 +17,9 @@
         gap: 18px;
     
         .string{
-            background-color: #008B0E;
+            background-color: #48AA3E;
             color: #fff;
-            padding: 5px;
+            padding: 10px;
             border-radius: 20px;
             
         }
@@ -32,11 +32,28 @@
     
 }
 
-.menu {
+nav {
     background-color: #DAFFB1;
     display: flex;
     align-items: center;
     justify-content: center;
     gap: 29px;
     padding: 18px;
+   box-shadow: 0px 7px 7px rgba(0,0,0,0.192);
+
+}
+
+nav > a {
+    color: black;
+    padding: 10px;
+    border-radius: 5px;
+    text-decoration: none;
+    font-weight: bold;
+    transition-duration: 0,8s;
+}
+
+nav > a:hover{
+    background-color: #48AA3E;
+    color: white;
+
 }
