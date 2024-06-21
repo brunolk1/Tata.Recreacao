@@ -4,6 +4,7 @@ section{
         background-color: #B9DDFF;
         border-radius: 0 60px 0 60px;
         margin: 30px;  
+        margin-top: 30px;
         display: flex;
         flex-direction: column;
         align-items: center;
@@ -25,8 +26,10 @@ h1 {
 
 .tamanho_img{
     max-width: 450px;
+    margin: 40px;
 }
 
 .depoimentos{
     padding-bottom: 50px;
+    
 }

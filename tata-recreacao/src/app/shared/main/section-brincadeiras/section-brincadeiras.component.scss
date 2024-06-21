@@ -110,3 +110,18 @@ p{
 .tamanho_img{
     max-width: 300px;
 }
+
+@media (max-width: 780px) {
+    section{
+               
+       
+       
+        .brincadeiras, .oficinas, .torneio, .camarim, .baby, .torta, .baladinha, .pintura, .balao {
+          
+           flex-direction: column;
+
+       }
+       
+      
+}
+}

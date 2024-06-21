@@ -1,4 +1,4 @@
-section{
+#sobre{
     margin: 30px;  
     display: flex;
     flex-direction: column;
@@ -30,8 +30,10 @@ max-width: 650px;
 
     .content{
         display: flex;
+        flex-direction: row;
         align-items: center;
-        gap: 150px;
+        justify-content: space-between ;
+        gap: 70px;
     }
 
 
@@ -57,8 +59,10 @@ max-width: 650px;
     
     .content{
         display: flex;
+        flex-direction: row;
         align-items: center;
-        gap: 150px;
+        justify-content: space-between ;
+        gap: 70px;
     }
 
     p{
@@ -77,11 +81,11 @@ max-width: 650px;
 }
 
 @media (max-width: 780px) {
-     section{
+     #sobre{
                 
         
         
-        .donos > .tata .barba {
+        .content {
            
             flex-direction: column;
 
